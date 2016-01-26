@@ -10,7 +10,8 @@ namespace T5
     {
         static void Main(string[] args)
         {
-
+            Radio radio = new Radio();
+            Console.WriteLine(radio.ToString());
         }
     }
 }
